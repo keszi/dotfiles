@@ -1,0 +1,12 @@
+shelltitle ""
+#msgwait 2
+#vbell off
+
+#altscreen on
+#termcapinfo xterm* 'hs:ts=\E]0;:fs=\007:ds=\E]0;\007'
+#defhstatus "screen ^E (^Et)"
+#hardstatus off
+
+term screen-256color
+hardstatus alwayslastline "%{= w}%-w%{= Ib}%n %t %{-}%+w %-= %{Ib}%c:%s"
+startup_message off
