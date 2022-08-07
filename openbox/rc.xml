@@ -177,22 +177,18 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
-	<chainQuitKey>C-g</chainQuitKey>
-
+    <chainQuitKey>C-g</chainQuitKey>
     <!--Saját billentyű kombinációk-->
     <keybind key="A-D">
       <action name="Execute">
-      <command>rofi -show run</command>
+        <command>rofi -show run</command>
       </action>
     </keybind>
-
     <keybind key="A-F">
       <action name="Execute">
-      <command>/home/naloka/.config/openbox/screen.sh</command>
+        <command>/home/naloka/.config/openbox/screen.sh</command>
       </action>
     </keybind>
-
-
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
