@@ -4,5 +4,4 @@ tint2 &
 plank &  
 numlockx &
 setxkbmap hu &
-pasystray &
-sleep 1 && /usr/lib64/polkit-gnome-authentication-agent-1 &
+zuluPolkit &
