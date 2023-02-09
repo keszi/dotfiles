@@ -1,7 +1,7 @@
-picom &
 nitrogen --restore
 tint2 &
 numlockx &
 setxkbmap hu &
-lxpolkit &
-Discord &
+discord &
+/usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1 &
+
